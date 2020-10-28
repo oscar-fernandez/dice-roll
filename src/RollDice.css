@@ -1,0 +1,35 @@
+.RollDice {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.RollDice__container {
+  margin-bottom: 2rem;
+}
+
+.RollDice__button {
+  width: 12rem;
+  height: 4rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  align-self: center;
+}
+
+.RollDice__button:focus {
+  outline: none;
+}
+
+.RollDice__button:hover {
+  cursor: pointer;
+}
+
+.RollDice__button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(43, 43, 43);
+}
